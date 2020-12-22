@@ -12,6 +12,7 @@ namespace EdgeDetectionPoc
     {
         static void Main(string[] args)
         {
+            //aaaa
             var path = @"c:\seki\Sek2.png";
             var savepath = @"c:\seki\Canny2.png";
 
