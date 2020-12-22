@@ -14,8 +14,8 @@ namespace KnotDetectorML.Model
     {
         private static Lazy<PredictionEngine<ModelInput, ModelOutput>> PredictionEngine = new Lazy<PredictionEngine<ModelInput, ModelOutput>>(CreatePredictionEngine);
 
-        // public static string MLNetModelPath = Path.GetFullPath("MLModel.zip");
-        public static string MLNetModelPath = @"C:\Users\klipc\source\repos\KnotDetector\KnotDetector\KnotDetectorML.ConsoleApp\bin\Debug\netcoreapp3.1\MLModel.zip";
+        public static string MLNetModelPath = Path.GetFullPath("MLModel.zip");
+        //public static string MLNetModelPath = @"C:\Users\klipc\source\repos\KnotDetector\KnotDetector\KnotDetectorML.ConsoleApp\bin\Debug\netcoreapp3.1\MLModel.zip";
 
         // For more info on consuming ML.NET models, visit https://aka.ms/mlnet-consume
         // Method for consuming model in your app

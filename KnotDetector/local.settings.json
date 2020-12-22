@@ -1,0 +1,6 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=klstoragestandard;AccountKey=ZDPv+b21qebIzVSaerihweAmrO4RTMhtRhMVb6uIda8z8mGJszn6mj3c8cMBC0ZoWItBedjC9Vm+IETEPxgB+g==;BlobEndpoint=https://klstoragestandard.blob.core.windows.net/;TableEndpoint=https://klstoragestandard.table.core.windows.net/;QueueEndpoint=https://klstoragestandard.queue.core.windows.net/;FileEndpoint=https://klstoragestandard.file.core.windows.net/"
+  }
+}

@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnotDetector.Android", "KnotDetector\KnotDetector.Android\KnotDetector.Android.csproj", "{A31A279B-4793-4365-BAD6-ACBCC0A955C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnotDetector.Android", "KnotDetector.Android\KnotDetector.Android.csproj", "{A31A279B-4793-4365-BAD6-ACBCC0A955C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnotDetector.iOS", "KnotDetector\KnotDetector.iOS\KnotDetector.iOS.csproj", "{4DB8E068-75E9-4450-B356-A204E6F1F24F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnotDetector.iOS", "KnotDetector.iOS\KnotDetector.iOS.csproj", "{4DB8E068-75E9-4450-B356-A204E6F1F24F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnotDetector", "KnotDetector\KnotDetector\KnotDetector.csproj", "{5D988FB9-95E1-4BF6-8151-06CA38B79131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnotDetector", "KnotDetector\KnotDetector.csproj", "{5D988FB9-95E1-4BF6-8151-06CA38B79131}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnotDetectorML.Model", "KnotDetector\KnotDetectorML.Model\KnotDetectorML.Model.csproj", "{8DADC13C-CAEC-417B-B758-7ED22D886EA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnotDetectorML.Model", "KnotDetectorML.Model\KnotDetectorML.Model.csproj", "{8DADC13C-CAEC-417B-B758-7ED22D886EA5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnotDetectorML.ConsoleApp", "KnotDetector\KnotDetectorML.ConsoleApp\KnotDetectorML.ConsoleApp.csproj", "{10087542-6517-4604-B930-68462F6BFA8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnotDetectionLogic", "KnotDetectionLogic\KnotDetectionLogic.csproj", "{A12CB72D-C74E-4476-8373-CF201C06C4BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnotDetectorFunctionApp", "KnotDetectorFunctionApp\KnotDetectorFunctionApp.csproj", "{19943A6E-9180-4F12-B55E-6FAE1F99D91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdgeDetectionPoc", "EdgeDetectionPoc\EdgeDetectionPoc.csproj", "{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,18 +93,42 @@ Global
 		{8DADC13C-CAEC-417B-B758-7ED22D886EA5}.Release|iPhone.Build.0 = Release|Any CPU
 		{8DADC13C-CAEC-417B-B758-7ED22D886EA5}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{8DADC13C-CAEC-417B-B758-7ED22D886EA5}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{10087542-6517-4604-B930-68462F6BFA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10087542-6517-4604-B930-68462F6BFA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10087542-6517-4604-B930-68462F6BFA8E}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{10087542-6517-4604-B930-68462F6BFA8E}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{10087542-6517-4604-B930-68462F6BFA8E}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{10087542-6517-4604-B930-68462F6BFA8E}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{10087542-6517-4604-B930-68462F6BFA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10087542-6517-4604-B930-68462F6BFA8E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10087542-6517-4604-B930-68462F6BFA8E}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{10087542-6517-4604-B930-68462F6BFA8E}.Release|iPhone.Build.0 = Release|Any CPU
-		{10087542-6517-4604-B930-68462F6BFA8E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{10087542-6517-4604-B930-68462F6BFA8E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{A12CB72D-C74E-4476-8373-CF201C06C4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12CB72D-C74E-4476-8373-CF201C06C4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12CB72D-C74E-4476-8373-CF201C06C4BC}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{A12CB72D-C74E-4476-8373-CF201C06C4BC}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{A12CB72D-C74E-4476-8373-CF201C06C4BC}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A12CB72D-C74E-4476-8373-CF201C06C4BC}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{A12CB72D-C74E-4476-8373-CF201C06C4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12CB72D-C74E-4476-8373-CF201C06C4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12CB72D-C74E-4476-8373-CF201C06C4BC}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{A12CB72D-C74E-4476-8373-CF201C06C4BC}.Release|iPhone.Build.0 = Release|Any CPU
+		{A12CB72D-C74E-4476-8373-CF201C06C4BC}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{A12CB72D-C74E-4476-8373-CF201C06C4BC}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{19943A6E-9180-4F12-B55E-6FAE1F99D91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19943A6E-9180-4F12-B55E-6FAE1F99D91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19943A6E-9180-4F12-B55E-6FAE1F99D91D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{19943A6E-9180-4F12-B55E-6FAE1F99D91D}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{19943A6E-9180-4F12-B55E-6FAE1F99D91D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{19943A6E-9180-4F12-B55E-6FAE1F99D91D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{19943A6E-9180-4F12-B55E-6FAE1F99D91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19943A6E-9180-4F12-B55E-6FAE1F99D91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19943A6E-9180-4F12-B55E-6FAE1F99D91D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{19943A6E-9180-4F12-B55E-6FAE1F99D91D}.Release|iPhone.Build.0 = Release|Any CPU
+		{19943A6E-9180-4F12-B55E-6FAE1F99D91D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{19943A6E-9180-4F12-B55E-6FAE1F99D91D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}.Release|iPhone.Build.0 = Release|Any CPU
+		{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{1FC8AD8E-D3D9-4B0A-B986-2AABAB7687C0}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
